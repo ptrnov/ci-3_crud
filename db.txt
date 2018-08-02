@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nama` varchar(50) NOT NULL,
+  `alamat` text NOT NULL,
+  `pekerjaan` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 
+
+
+INSERT INTO `user` (`id`, `nama`, `alamat`, `pekerjaan`) VALUES
+(1, 'Syaira', 'Tangerang', 'Dokter'),
+(2, 'Syaka', 'Tangerang', 'Ustadz'),
+(3, 'Erma', 'Madiun', 'IRT'),
+(4, 'Piter', 'Palembang', 'web programmer'),
+(5, 'Novian', 'Malang', 'Web Designer');
